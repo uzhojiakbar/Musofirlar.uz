@@ -1,0 +1,24 @@
+.masjidlar {}
+
+.masjidlar-main {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.masjid {}
+
+.masjid:nth-child(2) {
+    transform: scale(0.8);
+}
+
+
+.masjid img {
+    width: 90%;
+    transition: all 1s;
+    border-radius: 267.39px 267.39px 16.6272px 16.6272px;
+}
+.masjid img:hover{
+    transform: scale(1.2);
+    position: relative;
+}

@@ -1,0 +1,153 @@
+.form {
+    width: 557px;
+    min-height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    border: 0.2px solid #A5A5A5;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    margin-top: 80px;
+}
+
+form {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
+
+.form-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.2067px;
+    line-height: 33px;
+    color: #000000;
+    text-align: center;
+}
+
+label {
+    width: 250px;
+}
+
+.input {
+    border: 0.2px solid #A5A5A5;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 10px 20px 10px 10px;
+    text-align: left;
+    outline: none;
+    width: 250px;
+    color: #989898;
+}
+
+.input::placeholder {
+    color: #989898;
+}
+
+.login {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.signin_btn {
+    background: #007FFF;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.354px;
+    line-height: 24px;
+    padding: 20px 50px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.signin-a {
+    color: #FFFFFF;
+}
+
+.signin_btn:hover {
+    background-color: white;
+    border: 3px solid #007FFF;
+}
+
+.signin_btn:hover .signin-a {
+    color: #007FFF;
+}
+
+.frrget_pass {
+    display: flex;
+    gap: 10px;
+}
+
+.inputwrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+}
+
+.inputtoliq {
+    position: relative;
+    left: 10px;
+    width: 520px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form~* {
+    margin-bottom: 80px;
+}
+
+.footer {
+    margin-top: 80px;
+}
+
+.rasmplus {
+    z-index: 999;
+    background-color: grey;
+    position: absolute;
+    right: 8px;
+    bottom: 0.5px;
+    align-items: center;
+    transform: scale(0.9);
+    padding: 5px;
+}
+
+
+.buttons {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 15px 25px;
+    border: 2px solid #007FFF;
+    color: white;
+    transition: 1s;
+    background-color: #007FFF;
+    border-radius: 6px;
+
+}
+
+.buttons button:hover {
+    border: 2px solid #007FFF;
+    color: #007FFF;
+    background-color: white;
+}

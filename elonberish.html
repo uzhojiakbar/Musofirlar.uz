@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/header.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/elonberish.css'>
+    <script type='text/javascript' src='./time.js'></script>
+</head>
+
+<body onload="clockFunction()">
+    <header>
+        <video class=" back_video-con" autoplay loop muted>
+            <source class="back_video" src="./vid/header_video.mp4">
+        </video>
+        <nav>
+            <div class="logo">
+                <p class="title-nav"> <a class="title" href="">Musofirlar</a></p>
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="./index.html"> Bosh sahifa</a></li>
+                    <li><a href="#ijara-uy"> Ijaraga uylar</a></li>
+                    <li><a href=""> Ish topish</a></li>
+                    <li><a href=""> Elchixonalar</a></li>
+                    <li><a href=""> O'zbek oshxonasi</a></li>
+                    <li><a href=""> Qoshimcha xizmatlar</a></li>
+                    <li><a href=""> Biz haqimizda</a></li>
+                </ul>
+            </div>
+            <div class="lang">
+                <div class="langg">
+                    <div class="lang_select lang_uz">
+                        <a class="select_uzb" href="#uz">
+                            uz
+                        </a>
+                    </div>
+                    <ul class="languages">
+                        <li><a class="lang_items uz_lang" href="">uz</a></li>
+                        <li><a class="lang_items ru_lang" href="">ru</a></li>
+                        <li><a class="lang_items en_lang" href="">en</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="myaccount_nav">
+                <div class="img_account">
+                    <img src="./img/user_logo.png" alt="">
+                </div>
+                <div class="account_info">
+                    <div class="title_nav">
+                        salom, <br>
+                        <img src="./img/goback.png" alt="">
+                        <span>
+                            Abdusalom
+                        </span>
+                    </div>
+                </div>
+                <ul class="account-list">
+                    <li><a href="">Abdusalom</a></li>
+                    <li><a href="">Azizbek</a></li>
+                    <li><a href="">Hojiakbar</a></li>
+                </ul>
+
+                <a href="" class="btnmy">
+                    Kirish
+                </a>
+            </div>
+        </nav>
+        <div class="header1">
+
+            <span class="wrap-prosta">
+
+
+                <div class="form">
+                    <form action="">
+                        <div class="form-title">E’lon berish</div>
+                        <div class="inputwrap">
+                            <label for="country">
+                                <select class="input" name="country" id="country">
+                                    <option class="input" value="">Davlat nomini tanlang...</option>
+                                    <option class="input" value="">Uzbekistan</option>
+                                    <option class="input" value="">Kyrgyzistan</option>
+                                    <option class="input" value="">Tadjikistan</option>
+                                    <option class="input" value="">Russia</option>
+                                    <option class="input" value="">Korea</option>
+                                </select>
+                            </label>
+                            <label for="country">
+                                <select class="input" name="country" id="country">
+                                    <option class="input" value="">Xonalar Soni</option>
+                                    <option class="input" value="">1</option>
+                                    <option class="input" value="">2</option>
+                                    <option class="input" value="">3</option>
+                                    <option class="input" value="">5</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="inputwrap">
+                            <label for="country">
+                                <select class="input" name="country" id="country">
+                                    <option class="input" value="">Hududni tanlang...</option>
+                                    <option class="input" value="">Uzbekistan</option>
+                                    <option class="input" value="">Kyrgyzistan</option>
+                                    <option class="input" value="">Tadjikistan</option>
+                                    <option class="input" value="">Russia</option>
+                                    <option class="input" value="">Korea</option>
+                                </select>
+                            </label>
+                            <label for="country">
+                                <select class="input" name="country" id="country">
+                                    <option class="input" value="">Sanuzel soni</option>
+                                    <option class="input" value="">1</option>
+                                    <option class="input" value="">2</option>
+                                    <option class="input" value="">3</option>
+                                    <option class="input" value="">5</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="inputwrap">
+                            <label for="country">
+                                <select class="input" name="country" id="country">
+                                    <option class="input" value="">Narxi</option>
+                                    <option class="input" value="">100-200$</option>
+                                    <option class="input" value="">200-400$</option>
+                                    <option class="input" value="">500-700$</option>
+                                    <option class="input" value="">1000-10.000$</option>
+                                </select>
+                            </label>
+                            <label for="country">
+                                <select class="input" name="country" id="country">
+                                    <option class="input" value="">Qavat soni</option>
+                                    <option class="input" value="">1</option>
+                                    <option class="input" value="">2</option>
+                                    <option class="input" value="">3</option>
+                                    <option class="input" value="">5</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="inputwrap">
+                            <label for="country">
+                                <select class="input" name="country" id="country">
+                                    <option class="input" value="">Jihozlar...</option>
+                                    <option class="input" value="">HOlodilnik televizor wifi</option>
+                                    <option class="input" value="">televizor kir moshina wifi</option>
+                                </select>
+                            </label>
+                            <span class="rasmplus">
+
+                                <img class="pluss" src="./img/akar-icons_plus.png" alt="">
+                            </span>
+                            <label for="country">
+                                <p class="input">Rasmni tanlang</p>
+                            </label>
+
+                        </div>
+                        <div class="inputs">
+                            <label for="name">
+                                <textarea class="input inputtoliq" id="name" placeholder="To’liq manzilni kiriting ..." rows="1"></textarea>
+                            </label>
+                            <label for="name">
+                                <textarea class="input inputtoliq" id="name" placeholder="Ismingizni kiriting..." rows="3"></textarea>
+                            </label>
+                            <label for="name">
+                                <textarea class="input inputtoliq"  id="name" placeholder="Ismingizni kiriting..." rows="3"></textarea>
+                            </label>
+                        </div>
+                        <div class="buttons">
+                            <button>Bekor qilish</button>
+                            <button>Elon Berish</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+        </div>
+    </header>
+
+    <div class="footer">
+        <div class="footer2">
+            <div class="footer_musofirlar">
+                <h1 class="footer_musofirlar2">Musofirlar</h1>
+                <p class="footer_musofirlarp">MUSOFIR.BIZ yordamida o’zingiz uchun qulay va hamyonbop ijara uylarini
+                    topishingiz mumkin!</p>
+            </div>
+            <div class="footer_boshsahifa">
+                <ul>
+                    <li><a href="#">Bosh sahifa</a></li>
+                    <li><a href="#">Ijara uylar</a></li>
+                    <li><a href="#">Ish topish</a></li>
+                    <li><a href="#">Elchixonalar</a></li>
+                    <li><a href="#">O’zbek oshxona</a></li>
+                </ul>
+            </div>
+            <div class="footer_masjidlar">
+                <ul>
+                    <li><a href="#">Masjidlar</a></li>
+                    <li><a href="#">Qo’shimcha ma’lumotlar</a></li>
+                    <li><a href="#">Biz haqimizda</a></li>
+                    <li><a href="#">Ko’p beriladigan savollar</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </div>
+            <div class="footer_telegram">
+                <ul>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

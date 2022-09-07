@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/header.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/login.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/signin.css'>
+    <script type='text/javascript' src='./time.js'></script>
+</head>
+
+<body onload="clockFunction()">
+    <header>
+        <video class=" back_video-con" autoplay loop muted>
+            <source class="back_video" src="./vid/header_video.mp4">
+        </video>
+        <nav>
+            <div class="logo">
+                <p class="title-nav"> <a class="title" href="">Musofirlar</a></p>
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="./index.html"> Bosh sahifa</a></li>
+                    <li><a href="#ijara-uy"> Ijaraga uylar</a></li>
+                    <li><a href=""> Ish topish</a></li>
+                    <li><a href=""> Elchixonalar</a></li>
+                    <li><a href=""> O'zbek oshxonasi</a></li>
+                    <li><a href=""> Qoshimcha xizmatlar</a></li>
+                    <li><a href=""> Biz haqimizda</a></li>
+                </ul>
+            </div>
+            <div class="lang">
+                <div class="langg">
+                    <div class="lang_select lang_uz">
+                        <a class="select_uzb" href="#uz">
+                            uz
+                        </a>
+                    </div>
+                    <ul class="languages">
+                        <li><a class="lang_items uz_lang" href="">uz</a></li>
+                        <li><a class="lang_items ru_lang" href="">ru</a></li>
+                        <li><a class="lang_items en_lang" href="">en</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="myaccount_nav">
+                <div class="img_account">
+                    <img src="./img/user_logo.png" alt="">
+                </div>
+                <div class="account_info">
+                    <div class="title_nav">
+                        salom, <br>
+                        <img src="./img/goback.png" alt="">
+                        <span>
+                            Abdusalom
+                        </span>
+                    </div>
+                </div>
+                <ul class="account-list">
+                    <li><a href="">Abdusalom</a></li>
+                    <li><a href="">Azizbek</a></li>
+                    <li><a href="">Hojiakbar</a></li>
+                </ul>
+
+                <a href="" class="btnmy">
+                    Ro’yxatdan o’tish
+                </a>
+            </div>
+        </nav>
+        <div class="header1">
+
+            <span class="wrap-prosta">
+
+                <div class="tash-time main">
+                    <p class="time">
+                        <span class="clock"></span>
+                        <span class="time-animation">:</span>
+                        <span class="minut"></span>
+                    </p>
+                    <p class="reg">Tashkent</p>
+                </div>
+
+
+
+                <div class="form">
+                    <form action="">
+                        <div class="form-title">Tizimga kirish</div>
+
+                        <label for="number">
+                            <input class="input" type="number" id="number"
+                                placeholder="Telefon raqamingizni kiriting...">
+                        </label>
+                       
+                        <label for="password">
+                            <input class="input" type="password" id="password" placeholder="Parolni kiriting...">
+                        </label>
+                        <label for="remember_mee">
+                            <input type="checkbox" name="remember_me" id="remember_me"> <label for="remember_me" class="remember_me">Meni eslab qol</label> 
+                            <a href="#">Parolni unutdingizmi?</a>
+                        </label>
+                        <label for="login">
+                            <button id="login" class="signin_btn">
+                                <a class="signin-a" href="">Kirish</a>
+                            </button>
+                        </label>
+                        <p class="frrget_pass">
+                            Yoki<a href="#">Ro’yxatdan o’tish</a>
+                        </p>
+                    </form>
+                </div>
+
+
+
+        </div>
+    </header>
+
+    <div class="footer">
+        <div class="footer2">
+            <div class="footer_musofirlar">
+                <h1 class="footer_musofirlar2">Musofirlar</h1>
+                <p class="footer_musofirlarp">MUSOFIR.BIZ yordamida o’zingiz uchun qulay va hamyonbop ijara uylarini
+                    topishingiz mumkin!</p>
+            </div>
+            <div class="footer_boshsahifa">
+                <ul>
+                    <li><a href="#">Bosh sahifa</a></li>
+                    <li><a href="#">Ijara uylar</a></li>
+                    <li><a href="#">Ish topish</a></li>
+                    <li><a href="#">Elchixonalar</a></li>
+                    <li><a href="#">O’zbek oshxona</a></li>
+                </ul>
+            </div>
+            <div class="footer_masjidlar">
+                <ul>
+                    <li><a href="#">Masjidlar</a></li>
+                    <li><a href="#">Qo’shimcha ma’lumotlar</a></li>
+                    <li><a href="#">Biz haqimizda</a></li>
+                    <li><a href="#">Ko’p beriladigan savollar</a></li>
+                    <li><a href="#">Linkedin</a></li>
+                </ul>
+            </div>
+            <div class="footer_telegram">
+                <ul>
+                    <li><a href="#">Telegram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

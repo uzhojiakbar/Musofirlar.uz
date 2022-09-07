@@ -1,0 +1,125 @@
+.ish_topish_header {
+    display: flex;
+    margin-top: 80px;
+    height: 550px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.ish-topish .about-page {
+    margin-top: 80px;
+}
+
+
+.box {
+    width: 100%;
+    border-right: 3px solid #A9A9A9;
+    transition: .5s;
+}
+
+.box:hover {
+    border-right: 3px solid #007FFF;
+}
+
+.box-mainn {
+    padding: 20px;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    transition: 1s;
+    position: relative;
+    border: 2px solid transparent;
+}
+
+
+.box-mainn:hover {
+    transform: scale(1.1) translate(20px);
+    border: 2px solid #007FFF;
+    box-shadow: 0px 0px 7px 4px rgba(0, 127, 255, 0.25);
+    border-radius: 20px;
+}
+
+
+.boxtitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.6391px;
+    width: 100%;
+    line-height: 31px;
+    color: #007FFF;
+    display: flex;
+    gap: 50px;
+    font-weight: 900;
+    transition: 1s;
+    align-items: center;
+}
+
+.box-mainn:hover .boxtitle {
+    color: #000;
+}
+
+.icon-boxtitle {
+    font-size: 50px;
+}
+
+.boxabout {
+    width: 100%;
+    transition: 1s;
+}
+
+.box-about-txt {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #646464;
+}
+
+
+.picbox {
+    border-radius: 20px;
+    width: 404px;
+    border: 2px solid #007FFF;
+    border-radius: 20px;
+    width: 405px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    transition: 1s;
+}
+
+.pic {
+    border-radius: 20px;
+    width: 402px;
+    height: 400px;
+    transition: 1s;
+    position: relative;
+}
+
+.picbox:hover {
+    box-shadow: 0px 0px 4px 3px rgba(0, 127, 255, 0.25);
+}
+
+.picbox:hover .pic {
+    transform: translateX(-80px) translateY(30px);
+
+}
+
+.right-ish {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ish_topish_header {
+    display: flex;
+}
+
+.ish_topish_header > .left,.right{
+    height: 500px;
+}

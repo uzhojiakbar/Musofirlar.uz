@@ -1,0 +1,43 @@
+.uzbekoshxona{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.uzbekoshxona  .box{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.uzbekoshxona  .boxtitle{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.uzbekoshxona  .boxabout{
+    width: 100%;
+    text-align: right;
+}
+
+
+.uzbekoshxona .box {
+    border: none;
+    border-left: 3px solid #A9A9A9;
+}
+
+.uzbekoshxona .box:hover {
+    border-left: 3px solid #007FFF;
+}
+.uzbekoshxona .box-mainn:hover {
+    transform: scale(1.15);
+}
+
+.uzbekoshxona .picbox{
+    position: relative;
+    left: -80px;
+}
+.uzbekoshxona .pic{
+    position: relative;
+}
+
+.uzbekoshxona .picbox:hover .pic {
+    transform: translateX(80px) translateY(30px);
+
+}

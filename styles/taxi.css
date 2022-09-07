@@ -1,0 +1,105 @@
+.taxi {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.taxi .elchixonalar-header {
+    background-image: url(../img/taxii.png);
+}
+
+.taxi .title-elchi {
+    font-size: 30px;
+}
+
+.taxi .left-elchi {
+    flex: 1.2;
+}
+
+.taxi .right-elchi {
+    gap: 20px;
+    flex: 1.5;
+}
+
+.taxi-box {
+    background-color: white;
+    width: 40%;
+    min-height: 70%;
+    border-radius: 12.2106px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 1s;
+}
+
+.taxi-box:hover{
+    transform: scale(1.1);
+}
+
+.taxi-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.0499px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.taxi-info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.0989px;
+    line-height: 22px;
+    color: #5F5F5F;
+    list-style-position: inside;
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+.taxi-money {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.056px;
+    line-height: 49px;
+    color: #007FFF;
+}
+
+.taxi-money span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.3087px;
+    line-height: 22px;
+    text-decoration: 2px line-through red;
+    color: #000000;
+}
+
+.taxi-button {
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+
+.taxibtn {
+    font-weight: 600;
+    font-size: 14.2533px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #007FFF;
+    border-radius: 6.5123px;
+    padding: 10px 5px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.taxibtn:hover{
+    color: #007FFF;
+    background: #fff;
+    border: 3px solid #007FFF;
+}
